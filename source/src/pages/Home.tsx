@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, HandHeart } from 'lucide-react';
 
 export function Home() {
