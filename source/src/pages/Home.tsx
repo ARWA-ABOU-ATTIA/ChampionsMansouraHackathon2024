@@ -6,7 +6,7 @@ export function Home() {
     <div className="bg-gray-100 text-gray-800" dir="rtl">
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-purple-50 via-purple-100 to-purple-200">
+      <div className="relative bg-gradient-to-r from-purple-50 via-purple-100 to-purple-200 center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="text-center text-gray-800">
             <h1 className="text-4xl font-extrabold sm:text-5xl md:text-6xl">
@@ -17,14 +17,14 @@ export function Home() {
             </p>
             <div className="mt-10 flex justify-center gap-x-6">
               <a
-                href="/need-help"
+                href="/JobListings"
                 className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500"
               >
                 احتاج مساعدة
                 <ArrowRight className="mr-2 h-5 w-5" />
               </a>
               <a
-                href="/help-others"
+                href="/JobListings"
                 className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500"
               >
                 أريد أن أساعد
